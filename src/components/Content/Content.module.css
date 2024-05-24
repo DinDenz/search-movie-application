@@ -1,0 +1,17 @@
+.content {
+    color:red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content_body {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    border: 1px solid red;
+    margin-top: 40px;
+}
+.content_head {
+    display: flex;
+    flex-direction: row;
+}

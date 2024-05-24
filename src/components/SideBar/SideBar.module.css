@@ -1,10 +1,10 @@
 .navbar {
-    height: rem(700px);
-    width: rem(300px);
+    height: 700px;
+    max-width: 280px;
+    width: 100%;
     padding: var(--mantine-spacing-md);
     display: flex;
     flex-direction: column;
-    border-right: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
     background-color: #F2EBF9;
   }
   
@@ -60,11 +60,4 @@
   
   .link[data-active]:hover .linkIcon {
     color: var(--mantine-color-blue-light-color);
-  }
-  
-  
-  .linkIcon {
-    color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-2));
-    margin-right: var(--mantine-spacing-sm);
-    width: rem(25px);
   }
