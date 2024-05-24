@@ -6,7 +6,6 @@ import SideBar from '@/components/SideBar/SideBar';
 export function HomePage() {
   return (
     <>
-      Hello
       <SideBar />
     </>
   );

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Group, Code } from '@mantine/core';
+import { Group } from '@mantine/core';
 import classes from './SideBar.module.css';
 import Logo from '../Logo/Logo';
 
@@ -31,7 +31,6 @@ export default function NavbarSimple() {
       <div className={classes.navbarMain}>
         <Group className={classes.header} justify="space-between">
           <Logo />
-          <Code fw={700}>v3.1.2</Code>
         </Group>
         {links}
       </div>
