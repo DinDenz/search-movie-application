@@ -7,11 +7,14 @@
 .content_body {
     display: flex;
     flex-direction: column;
-    width: 980px;
+    max-width: 980px;
+    width: 100%;
     border: 1px solid red;
-    margin-top: 40px;
+    margin: 40px 90px 0px ;
 }
 .content_head {
     display: flex;
     flex-direction: row;
+    border: 1px solid green;
+    align-items: center;
 }
