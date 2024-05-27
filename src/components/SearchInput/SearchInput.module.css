@@ -1,0 +1,17 @@
+.search_input {
+  display: block;
+  height: 100%;
+}
+.search_input input {
+  display: block;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  height: 48px;
+}
+.search_input input:focus {
+  border: 1px solid #9854f6;
+  caret-color: #9854f6;
+}
