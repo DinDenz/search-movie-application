@@ -18,3 +18,9 @@
     border: 1px solid green;
     align-items: center;
 }
+.content_filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
