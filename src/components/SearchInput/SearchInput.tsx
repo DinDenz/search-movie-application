@@ -12,8 +12,13 @@ export default function InputWithButton(props: TextInputProps) {
       rightSectionWidth={42}
       leftSection={<IconSearch style={{ width: rem(18), height: rem(18) }} stroke={1.5} />}
       rightSection={
-        <Group mt="xs">
-          <Button color={theme.primaryColor} style={{ flex: 1 }}>Show details</Button>
+        <Group>
+          <Button
+            className={classes.search_button}
+            color={theme.primaryColor}
+            style={{ flex: 1 }}
+            >Search
+          </Button>
         </Group>
       }
       {...props}

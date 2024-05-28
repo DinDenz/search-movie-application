@@ -15,3 +15,25 @@
   border: 1px solid #9854f6;
   caret-color: #9854f6;
 }
+.search_button {
+  position: absolute;
+  left: -55px;
+  width: 88px;
+  height: 32px;
+  padding: 6px, 20px, 6px, 20px;
+  border-radius: 8px;
+  background-color: #9854f6;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: all 0.1s;
+}
+.search_button:hover {
+  background-color: #bd93f7;
+}
+.search_button:active {
+  background-color: #541f9d;
+}
